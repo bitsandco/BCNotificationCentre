@@ -18,6 +18,8 @@ public class BCNotificationCentre {
     
     private var observers = [String: [BCNotificationCentreObserver]]()
     
+    public init() { }
+    
     public func addObserverForName(name: String, priority: BCNotificationCentrePriority = .Normal, queue: NSOperationQueue? = nil, observerBlock: (BCNotification) -> Void) {
         
         if observers[name] == nil {
