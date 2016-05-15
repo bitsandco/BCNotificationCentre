@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A10D1CE1CE8B45000E733D7 /* BCValuedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1CD1CE8B45000E733D7 /* BCValuedNotification.swift */; };
+		7A10D1D11CE8C9AC00E733D7 /* NSNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1D01CE8C9AC00E733D7 /* NSNotificationTests.swift */; };
+		7A10D1FF1CE8DB9E00E733D7 /* BCNotificationCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A10D1F51CE8DB9E00E733D7 /* BCNotificationCentre.framework */; };
+		7A10D20C1CE8DBE000E733D7 /* BCNotificationCentreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201761CDF96C000622192 /* BCNotificationCentreTests.swift */; };
+		7A10D20D1CE8DC4900E733D7 /* BCNotificationCentre.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC2016A1CDF96C000622192 /* BCNotificationCentre.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A10D20E1CE8DC4900E733D7 /* BCNotificationCentre.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC2016A1CDF96C000622192 /* BCNotificationCentre.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A10D20F1CE8DC5500E733D7 /* BCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201811CDF97CE00622192 /* BCNotification.swift */; };
+		7A10D2101CE8DC5500E733D7 /* BCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201811CDF97CE00622192 /* BCNotification.swift */; };
+		7A10D2111CE8DC5A00E733D7 /* BCNotificationCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201831CDF982200622192 /* BCNotificationCentre.swift */; };
+		7A10D2121CE8DC5A00E733D7 /* BCNotificationCentrePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201851CDF9C4E00622192 /* BCNotificationCentrePriority.swift */; };
+		7A10D2131CE8DC5A00E733D7 /* BCNamedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE5D971CDFA94E0030D3D5 /* BCNamedNotification.swift */; };
+		7A10D2141CE8DC5A00E733D7 /* BCValuedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1CD1CE8B45000E733D7 /* BCValuedNotification.swift */; };
+		7A10D2151CE8DC5B00E733D7 /* BCNotificationCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201831CDF982200622192 /* BCNotificationCentre.swift */; };
+		7A10D2161CE8DC5B00E733D7 /* BCNotificationCentrePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201851CDF9C4E00622192 /* BCNotificationCentrePriority.swift */; };
+		7A10D2171CE8DC5B00E733D7 /* BCNamedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE5D971CDFA94E0030D3D5 /* BCNamedNotification.swift */; };
+		7A10D2181CE8DC5B00E733D7 /* BCValuedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1CD1CE8B45000E733D7 /* BCValuedNotification.swift */; };
+		7A10D2191CE8DC6000E733D7 /* NSNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1D01CE8C9AC00E733D7 /* NSNotificationTests.swift */; };
+		7A10D2291CE8DE7B00E733D7 /* BCNotificationCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A10D21F1CE8DE7B00E733D7 /* BCNotificationCentre.framework */; };
+		7A10D2361CE8DEA000E733D7 /* BCNotificationCentreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201761CDF96C000622192 /* BCNotificationCentreTests.swift */; };
+		7A10D2371CE8DEA000E733D7 /* NSNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1D01CE8C9AC00E733D7 /* NSNotificationTests.swift */; };
+		7A10D2381CE8DEA700E733D7 /* BCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201811CDF97CE00622192 /* BCNotification.swift */; };
+		7A10D2391CE8DEA700E733D7 /* BCNotificationCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201831CDF982200622192 /* BCNotificationCentre.swift */; };
+		7A10D23A1CE8DEA700E733D7 /* BCNotificationCentrePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC201851CDF9C4E00622192 /* BCNotificationCentrePriority.swift */; };
+		7A10D23B1CE8DEA700E733D7 /* BCNamedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE5D971CDFA94E0030D3D5 /* BCNamedNotification.swift */; };
+		7A10D23C1CE8DEA700E733D7 /* BCValuedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10D1CD1CE8B45000E733D7 /* BCValuedNotification.swift */; };
+		7A10D23D1CE8DEAA00E733D7 /* BCNotificationCentre.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC2016A1CDF96C000622192 /* BCNotificationCentre.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ABE5D981CDFA94E0030D3D5 /* BCNamedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE5D971CDFA94E0030D3D5 /* BCNamedNotification.swift */; };
 		7AC2016B1CDF96C000622192 /* BCNotificationCentre.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC2016A1CDF96C000622192 /* BCNotificationCentre.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AC201721CDF96C000622192 /* BCNotificationCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC201671CDF96C000622192 /* BCNotificationCentre.framework */; };
@@ -17,6 +43,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7A10D2001CE8DB9E00E733D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC2015E1CDF96C000622192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A10D1F41CE8DB9E00E733D7;
+			remoteInfo = BCNotificationCentre;
+		};
+		7A10D22A1CE8DE7B00E733D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC2015E1CDF96C000622192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A10D21E1CE8DE7B00E733D7;
+			remoteInfo = "BCNotificationCentre OSX";
+		};
 		7AC201731CDF96C000622192 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7AC2015E1CDF96C000622192 /* Project object */;
@@ -27,6 +67,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A10D1CD1CE8B45000E733D7 /* BCValuedNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCValuedNotification.swift; sourceTree = "<group>"; };
+		7A10D1D01CE8C9AC00E733D7 /* NSNotificationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationTests.swift; sourceTree = "<group>"; };
+		7A10D1E21CE8DAFA00E733D7 /* BCNotificationCentre iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BCNotificationCentre iOS copy-Info.plist"; path = "/Users/romain/OneDrive - Bits & Co/BCNotificationCentre/BCNotificationCentre iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		7A10D1E81CE8DB1800E733D7 /* BCNotificationCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCNotificationCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A10D1F51CE8DB9E00E733D7 /* BCNotificationCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCNotificationCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A10D1FE1CE8DB9E00E733D7 /* BCNotificationCentreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCNotificationCentreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A10D21F1CE8DE7B00E733D7 /* BCNotificationCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCNotificationCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A10D2281CE8DE7B00E733D7 /* BCNotificationCentreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCNotificationCentreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE5D971CDFA94E0030D3D5 /* BCNamedNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCNamedNotification.swift; sourceTree = "<group>"; };
 		7AC201671CDF96C000622192 /* BCNotificationCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCNotificationCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC2016A1CDF96C000622192 /* BCNotificationCentre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCNotificationCentre.h; sourceTree = "<group>"; };
@@ -40,6 +88,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7A10D1E41CE8DB1800E733D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1F11CE8DB9E00E733D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1FB1CE8DB9E00E733D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D1FF1CE8DB9E00E733D7 /* BCNotificationCentre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D21B1CE8DE7B00E733D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D2251CE8DE7B00E733D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D2291CE8DE7B00E733D7 /* BCNotificationCentre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC201631CDF96C000622192 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,6 +149,7 @@
 				7AC201691CDF96C000622192 /* BCNotificationCentre */,
 				7AC201751CDF96C000622192 /* BCNotificationCentreTests */,
 				7AC201681CDF96C000622192 /* Products */,
+				7A10D1E21CE8DAFA00E733D7 /* BCNotificationCentre iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +158,11 @@
 			children = (
 				7AC201671CDF96C000622192 /* BCNotificationCentre.framework */,
 				7AC201711CDF96C000622192 /* BCNotificationCentreTests.xctest */,
+				7A10D1E81CE8DB1800E733D7 /* BCNotificationCentre.framework */,
+				7A10D1F51CE8DB9E00E733D7 /* BCNotificationCentre.framework */,
+				7A10D1FE1CE8DB9E00E733D7 /* BCNotificationCentreTests.xctest */,
+				7A10D21F1CE8DE7B00E733D7 /* BCNotificationCentre.framework */,
+				7A10D2281CE8DE7B00E733D7 /* BCNotificationCentreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +176,7 @@
 				7AC201831CDF982200622192 /* BCNotificationCentre.swift */,
 				7AC201851CDF9C4E00622192 /* BCNotificationCentrePriority.swift */,
 				7ABE5D971CDFA94E0030D3D5 /* BCNamedNotification.swift */,
+				7A10D1CD1CE8B45000E733D7 /* BCValuedNotification.swift */,
 			);
 			path = BCNotificationCentre;
 			sourceTree = "<group>";
@@ -94,6 +186,7 @@
 			children = (
 				7AC201761CDF96C000622192 /* BCNotificationCentreTests.swift */,
 				7AC201781CDF96C000622192 /* Info.plist */,
+				7A10D1D01CE8C9AC00E733D7 /* NSNotificationTests.swift */,
 			);
 			path = BCNotificationCentreTests;
 			sourceTree = "<group>";
@@ -101,6 +194,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7A10D1E51CE8DB1800E733D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D20D1CE8DC4900E733D7 /* BCNotificationCentre.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1F21CE8DB9E00E733D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D20E1CE8DC4900E733D7 /* BCNotificationCentre.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D21C1CE8DE7B00E733D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D23D1CE8DEAA00E733D7 /* BCNotificationCentre.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC201641CDF96C000622192 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,9 +229,99 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7AC201661CDF96C000622192 /* BCNotificationCentre */ = {
+		7A10D1E71CE8DB1800E733D7 /* BCNotificationCentre watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC2017B1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentre" */;
+			buildConfigurationList = 7A10D1ED1CE8DB1800E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentre watchOS" */;
+			buildPhases = (
+				7A10D1E31CE8DB1800E733D7 /* Sources */,
+				7A10D1E41CE8DB1800E733D7 /* Frameworks */,
+				7A10D1E51CE8DB1800E733D7 /* Headers */,
+				7A10D1E61CE8DB1800E733D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BCNotificationCentre watchOS";
+			productName = BCNotificationCentre;
+			productReference = 7A10D1E81CE8DB1800E733D7 /* BCNotificationCentre.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A10D1F41CE8DB9E00E733D7 /* BCNotificationCentre tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A10D2061CE8DB9E00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentre tvOS" */;
+			buildPhases = (
+				7A10D1F01CE8DB9E00E733D7 /* Sources */,
+				7A10D1F11CE8DB9E00E733D7 /* Frameworks */,
+				7A10D1F21CE8DB9E00E733D7 /* Headers */,
+				7A10D1F31CE8DB9E00E733D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BCNotificationCentre tvOS";
+			productName = BCNotificationCentre;
+			productReference = 7A10D1F51CE8DB9E00E733D7 /* BCNotificationCentre.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A10D1FD1CE8DB9E00E733D7 /* BCNotificationCentreTests tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A10D2091CE8DB9E00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests tvOS" */;
+			buildPhases = (
+				7A10D1FA1CE8DB9E00E733D7 /* Sources */,
+				7A10D1FB1CE8DB9E00E733D7 /* Frameworks */,
+				7A10D1FC1CE8DB9E00E733D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A10D2011CE8DB9E00E733D7 /* PBXTargetDependency */,
+			);
+			name = "BCNotificationCentreTests tvOS";
+			productName = BCNotificationCentreTests;
+			productReference = 7A10D1FE1CE8DB9E00E733D7 /* BCNotificationCentreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A10D21E1CE8DE7B00E733D7 /* BCNotificationCentre OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A10D2301CE8DE7B00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentre OSX" */;
+			buildPhases = (
+				7A10D21A1CE8DE7B00E733D7 /* Sources */,
+				7A10D21B1CE8DE7B00E733D7 /* Frameworks */,
+				7A10D21C1CE8DE7B00E733D7 /* Headers */,
+				7A10D21D1CE8DE7B00E733D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BCNotificationCentre OSX";
+			productName = "BCNotificationCentre OSX";
+			productReference = 7A10D21F1CE8DE7B00E733D7 /* BCNotificationCentre.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A10D2271CE8DE7B00E733D7 /* BCNotificationCentreTests OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A10D2331CE8DE7B00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests OSX" */;
+			buildPhases = (
+				7A10D2241CE8DE7B00E733D7 /* Sources */,
+				7A10D2251CE8DE7B00E733D7 /* Frameworks */,
+				7A10D2261CE8DE7B00E733D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A10D22B1CE8DE7B00E733D7 /* PBXTargetDependency */,
+			);
+			name = "BCNotificationCentreTests OSX";
+			productName = "BCNotificationCentre OSXTests";
+			productReference = 7A10D2281CE8DE7B00E733D7 /* BCNotificationCentreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AC201661CDF96C000622192 /* BCNotificationCentre iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC2017B1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentre iOS" */;
 			buildPhases = (
 				7AC201621CDF96C000622192 /* Sources */,
 				7AC201631CDF96C000622192 /* Frameworks */,
@@ -125,14 +332,14 @@
 			);
 			dependencies = (
 			);
-			name = BCNotificationCentre;
+			name = "BCNotificationCentre iOS";
 			productName = BCNotificationCentre;
 			productReference = 7AC201671CDF96C000622192 /* BCNotificationCentre.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7AC201701CDF96C000622192 /* BCNotificationCentreTests */ = {
+		7AC201701CDF96C000622192 /* BCNotificationCentreTests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC2017E1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests" */;
+			buildConfigurationList = 7AC2017E1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests iOS" */;
 			buildPhases = (
 				7AC2016D1CDF96C000622192 /* Sources */,
 				7AC2016E1CDF96C000622192 /* Frameworks */,
@@ -143,7 +350,7 @@
 			dependencies = (
 				7AC201741CDF96C000622192 /* PBXTargetDependency */,
 			);
-			name = BCNotificationCentreTests;
+			name = "BCNotificationCentreTests iOS";
 			productName = BCNotificationCentreTests;
 			productReference = 7AC201711CDF96C000622192 /* BCNotificationCentreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -158,6 +365,21 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Bits & Co.";
 				TargetAttributes = {
+					7A10D1E71CE8DB1800E733D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A10D1F41CE8DB9E00E733D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A10D1FD1CE8DB9E00E733D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A10D21E1CE8DE7B00E733D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A10D2271CE8DE7B00E733D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					7AC201661CDF96C000622192 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -178,13 +400,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AC201661CDF96C000622192 /* BCNotificationCentre */,
-				7AC201701CDF96C000622192 /* BCNotificationCentreTests */,
+				7AC201661CDF96C000622192 /* BCNotificationCentre iOS */,
+				7AC201701CDF96C000622192 /* BCNotificationCentreTests iOS */,
+				7A10D1E71CE8DB1800E733D7 /* BCNotificationCentre watchOS */,
+				7A10D1F41CE8DB9E00E733D7 /* BCNotificationCentre tvOS */,
+				7A10D1FD1CE8DB9E00E733D7 /* BCNotificationCentreTests tvOS */,
+				7A10D21E1CE8DE7B00E733D7 /* BCNotificationCentre OSX */,
+				7A10D2271CE8DE7B00E733D7 /* BCNotificationCentreTests OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A10D1E61CE8DB1800E733D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1F31CE8DB9E00E733D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1FC1CE8DB9E00E733D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D21D1CE8DE7B00E733D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D2261CE8DE7B00E733D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC201651CDF96C000622192 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,12 +464,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7A10D1E31CE8DB1800E733D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D2111CE8DC5A00E733D7 /* BCNotificationCentre.swift in Sources */,
+				7A10D2131CE8DC5A00E733D7 /* BCNamedNotification.swift in Sources */,
+				7A10D2141CE8DC5A00E733D7 /* BCValuedNotification.swift in Sources */,
+				7A10D2121CE8DC5A00E733D7 /* BCNotificationCentrePriority.swift in Sources */,
+				7A10D20F1CE8DC5500E733D7 /* BCNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1F01CE8DB9E00E733D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D2151CE8DC5B00E733D7 /* BCNotificationCentre.swift in Sources */,
+				7A10D2171CE8DC5B00E733D7 /* BCNamedNotification.swift in Sources */,
+				7A10D2181CE8DC5B00E733D7 /* BCValuedNotification.swift in Sources */,
+				7A10D2161CE8DC5B00E733D7 /* BCNotificationCentrePriority.swift in Sources */,
+				7A10D2101CE8DC5500E733D7 /* BCNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D1FA1CE8DB9E00E733D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D20C1CE8DBE000E733D7 /* BCNotificationCentreTests.swift in Sources */,
+				7A10D2191CE8DC6000E733D7 /* NSNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D21A1CE8DE7B00E733D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D2391CE8DEA700E733D7 /* BCNotificationCentre.swift in Sources */,
+				7A10D23B1CE8DEA700E733D7 /* BCNamedNotification.swift in Sources */,
+				7A10D23C1CE8DEA700E733D7 /* BCValuedNotification.swift in Sources */,
+				7A10D23A1CE8DEA700E733D7 /* BCNotificationCentrePriority.swift in Sources */,
+				7A10D2381CE8DEA700E733D7 /* BCNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A10D2241CE8DE7B00E733D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10D2361CE8DEA000E733D7 /* BCNotificationCentreTests.swift in Sources */,
+				7A10D2371CE8DEA000E733D7 /* NSNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC201621CDF96C000622192 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7AC201841CDF982200622192 /* BCNotificationCentre.swift in Sources */,
 				7ABE5D981CDFA94E0030D3D5 /* BCNamedNotification.swift in Sources */,
+				7A10D1CE1CE8B45000E733D7 /* BCValuedNotification.swift in Sources */,
 				7AC201861CDF9C4E00622192 /* BCNotificationCentrePriority.swift in Sources */,
 				7AC201821CDF97CE00622192 /* BCNotification.swift in Sources */,
 			);
@@ -218,20 +535,207 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC201771CDF96C000622192 /* BCNotificationCentreTests.swift in Sources */,
+				7A10D1D11CE8C9AC00E733D7 /* NSNotificationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7A10D2011CE8DB9E00E733D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A10D1F41CE8DB9E00E733D7 /* BCNotificationCentre tvOS */;
+			targetProxy = 7A10D2001CE8DB9E00E733D7 /* PBXContainerItemProxy */;
+		};
+		7A10D22B1CE8DE7B00E733D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A10D21E1CE8DE7B00E733D7 /* BCNotificationCentre OSX */;
+			targetProxy = 7A10D22A1CE8DE7B00E733D7 /* PBXContainerItemProxy */;
+		};
 		7AC201741CDF96C000622192 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AC201661CDF96C000622192 /* BCNotificationCentre */;
+			target = 7AC201661CDF96C000622192 /* BCNotificationCentre iOS */;
 			targetProxy = 7AC201731CDF96C000622192 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		7A10D1EE1CE8DB1800E733D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BCNotificationCentre/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
+				PRODUCT_NAME = BCNotificationCentre;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7A10D1EF1CE8DB1800E733D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BCNotificationCentre/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
+				PRODUCT_NAME = BCNotificationCentre;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7A10D2071CE8DB9E00E733D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BCNotificationCentre/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
+				PRODUCT_NAME = BCNotificationCentre;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		7A10D2081CE8DB9E00E733D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BCNotificationCentre/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
+				PRODUCT_NAME = BCNotificationCentre;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		7A10D20A1CE8DB9E00E733D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BCNotificationCentreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentreTests;
+				PRODUCT_NAME = BCNotificationCentreTests;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		7A10D20B1CE8DB9E00E733D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BCNotificationCentreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentreTests;
+				PRODUCT_NAME = BCNotificationCentreTests;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		7A10D2311CE8DE7B00E733D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/BCNotificationCentre/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
+				PRODUCT_NAME = BCNotificationCentre;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A10D2321CE8DE7B00E733D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/BCNotificationCentre/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
+				PRODUCT_NAME = BCNotificationCentre;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A10D2341CE8DE7B00E733D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BCNotificationCentreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentreTests;
+				PRODUCT_NAME = BCNotificationCentreTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7A10D2351CE8DE7B00E733D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BCNotificationCentreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentreTests;
+				PRODUCT_NAME = BCNotificationCentreTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		7AC201791CDF96C000622192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -270,7 +774,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +817,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,9 +837,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BCNotificationCentre/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BCNotificationCentre;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -351,9 +856,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BCNotificationCentre/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentre;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BCNotificationCentre;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -362,9 +868,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BCNotificationCentreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BCNotificationCentreTests;
 			};
 			name = Debug;
 		};
@@ -372,15 +879,56 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BCNotificationCentreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitsandco.BCNotificationCentreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BCNotificationCentreTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7A10D1ED1CE8DB1800E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentre watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A10D1EE1CE8DB1800E733D7 /* Debug */,
+				7A10D1EF1CE8DB1800E733D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A10D2061CE8DB9E00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentre tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A10D2071CE8DB9E00E733D7 /* Debug */,
+				7A10D2081CE8DB9E00E733D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A10D2091CE8DB9E00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A10D20A1CE8DB9E00E733D7 /* Debug */,
+				7A10D20B1CE8DB9E00E733D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A10D2301CE8DE7B00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentre OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A10D2311CE8DE7B00E733D7 /* Debug */,
+				7A10D2321CE8DE7B00E733D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A10D2331CE8DE7B00E733D7 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A10D2341CE8DE7B00E733D7 /* Debug */,
+				7A10D2351CE8DE7B00E733D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		7AC201611CDF96C000622192 /* Build configuration list for PBXProject "BCNotificationCentre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -390,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC2017B1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentre" */ = {
+		7AC2017B1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentre iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC2017C1CDF96C000622192 /* Debug */,
@@ -399,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC2017E1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests" */ = {
+		7AC2017E1CDF96C000622192 /* Build configuration list for PBXNativeTarget "BCNotificationCentreTests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC2017F1CDF96C000622192 /* Debug */,

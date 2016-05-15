@@ -4,14 +4,59 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BCNotificationCentre.xcscheme</key>
+		<key>BCNotificationCentre OSX.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>BCNotificationCentre iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>BCNotificationCentre tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BCNotificationCentre watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7A10D1D31CE8DAFA00E733D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A10D1E71CE8DB1800E733D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A10D1F41CE8DB9E00E733D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A10D1FD1CE8DB9E00E733D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A10D21E1CE8DE7B00E733D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A10D2271CE8DE7B00E733D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7AC201661CDF96C000622192</key>
 		<dict>
 			<key>primary</key>

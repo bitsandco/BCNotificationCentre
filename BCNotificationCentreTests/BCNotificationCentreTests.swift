@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import BCNotificationCentre
 
 class BCNotificationCentreTests: XCTestCase {
@@ -27,7 +28,7 @@ class BCNotificationCentreTests: XCTestCase {
     func testPostNotification() {
         // Given
         let notificationName = "BCNotificationName"
-        let notification = BCNotification(name: notificationName)
+        let notification = BCNotification<Any>(name: notificationName)
         
         // When
         sut.postNotification(notification)
@@ -39,10 +40,10 @@ class BCNotificationCentreTests: XCTestCase {
     func testAddObserverForNameAndRecieveNotification() {
         // Given
         let notificationName = "BCNotificationName"
-        let notification = BCNotification(name: notificationName)
-        var recievedNotification: BCNotification?
+        let notification = BCNotification<Any>(name: notificationName)
+        var recievedNotification: BCNotification<Any>?
         let asyncNotificationExpectation = expectationWithDescription("asyncNotificationExpectation")
-        let notificationBlock = { (notification: BCNotification) -> Void in
+        let notificationBlock = { (notification: BCNotification<Any>) -> Void in
             recievedNotification = notification
             asyncNotificationExpectation.fulfill()
         }
@@ -55,17 +56,17 @@ class BCNotificationCentreTests: XCTestCase {
         waitForExpectationsWithTimeout(5) { error in
             XCTAssertNil(error)
             XCTAssertNotNil(recievedNotification)
-            XCTAssertEqual(notification, recievedNotification)
+            XCTAssertEqual(notification.name, recievedNotification?.name)
         }
     }
     
     func testAddObserverForNameWithPriorityAndRecieveNotification() {
         // Given
         let notificationName = "BCNotificationName"
-        let notification = BCNotification(name: notificationName)
-        var recievedNotification: BCNotification?
+        let notification = BCNotification<Any>(name: notificationName)
+        var recievedNotification: BCNotification<Any>?
         let asyncNotificationExpectation = expectationWithDescription("asyncNotificationExpectation")
-        let notificationBlock = { (notification: BCNotification) -> Void in
+        let notificationBlock = { (notification: BCNotification<Any>) -> Void in
             recievedNotification = notification
             asyncNotificationExpectation.fulfill()
         }
@@ -78,17 +79,17 @@ class BCNotificationCentreTests: XCTestCase {
         waitForExpectationsWithTimeout(5) { error in
             XCTAssertNil(error)
             XCTAssertNotNil(recievedNotification)
-            XCTAssertEqual(notification, recievedNotification)
+            XCTAssertEqual(notification.name, recievedNotification?.name)
         }
     }
     
     func testAddObserverForNameWithQueueAndRecieveNotification() {
         // Given
         let notificationName = "BCNotificationName"
-        let notification = BCNotification(name: notificationName)
-        var recievedNotification: BCNotification?
+        let notification = BCNotification<Any>(name: notificationName)
+        var recievedNotification: BCNotification<Any>?
         let asyncNotificationExpectation = expectationWithDescription("asyncNotificationExpectation")
-        let notificationBlock = { (notification: BCNotification) -> Void in
+        let notificationBlock = { (notification: BCNotification<Any>) -> Void in
             recievedNotification = notification
             asyncNotificationExpectation.fulfill()
         }
@@ -101,17 +102,17 @@ class BCNotificationCentreTests: XCTestCase {
         waitForExpectationsWithTimeout(5) { error in
             XCTAssertNil(error)
             XCTAssertNotNil(recievedNotification)
-            XCTAssertEqual(notification, recievedNotification)
+            XCTAssertEqual(notification.name, recievedNotification?.name)
         }
     }
     
     func testAddObserverForNameWithPriorityAndQueueAndRecieveNotification() {
         // Given
         let notificationName = "BCNotificationName"
-        let notification = BCNotification(name: notificationName)
-        var recievedNotification: BCNotification?
+        let notification = BCNotification<Any>(name: notificationName)
+        var recievedNotification: BCNotification<Any>?
         let asyncNotificationExpectation = expectationWithDescription("asyncNotificationExpectation")
-        let notificationBlock = { (notification: BCNotification) -> Void in
+        let notificationBlock = { (notification: BCNotification<Any>) -> Void in
             recievedNotification = notification
             asyncNotificationExpectation.fulfill()
         }
@@ -124,21 +125,21 @@ class BCNotificationCentreTests: XCTestCase {
         waitForExpectationsWithTimeout(5) { error in
             XCTAssertNil(error)
             XCTAssertNotNil(recievedNotification)
-            XCTAssertEqual(notification, recievedNotification)
+            XCTAssertEqual(notification.name, recievedNotification?.name)
         }
     }
     
     func testPriorityNotification() {
         // Given
         let notificationName = "BCNotificationName"
-        let notification = BCNotification(name: notificationName)
+        let notification = BCNotification<Any>(name: notificationName)
         
-        var recievedNotificationHighPriority: BCNotification?
-        var recievedNotificationNormalPriority: BCNotification?
-        var recievedNotificationLowPriority: BCNotification?
+        var recievedNotificationHighPriority: BCNotification<Any>?
+        var recievedNotificationNormalPriority: BCNotification<Any>?
+        var recievedNotificationLowPriority: BCNotification<Any>?
         
         let asyncNotificationHighPriorityExpectation = expectationWithDescription("asyncNotificationHighPriorityExpectation")
-        let notificationHighPriorityBlock = { (notification: BCNotification) -> Void in
+        let notificationHighPriorityBlock = { (notification: BCNotification<Any>) -> Void in
             XCTAssertNil(recievedNotificationNormalPriority)
             XCTAssertNil(recievedNotificationLowPriority)
             recievedNotificationHighPriority = notification
@@ -146,7 +147,7 @@ class BCNotificationCentreTests: XCTestCase {
         }
         
         let asyncNotificationNormalPriorityExpectation = expectationWithDescription("asyncNotificationNormalPriorityExpectation")
-        let notificationNormalPriorityBlock = { (notification: BCNotification) -> Void in
+        let notificationNormalPriorityBlock = { (notification: BCNotification<Any>) -> Void in
             XCTAssertNotNil(recievedNotificationHighPriority)
             XCTAssertNil(recievedNotificationLowPriority)
             recievedNotificationNormalPriority = notification
@@ -155,7 +156,7 @@ class BCNotificationCentreTests: XCTestCase {
         
         
         let asyncNotificationLowPriorityExpectation = expectationWithDescription("asyncNotificationLowPriorityExpectation")
-        let notificationLowPriorityBlock = { (notification: BCNotification) -> Void in
+        let notificationLowPriorityBlock = { (notification: BCNotification<Any>) -> Void in
             XCTAssertNotNil(recievedNotificationHighPriority)
             XCTAssertNotNil(recievedNotificationNormalPriority)
             recievedNotificationLowPriority = notification
@@ -173,10 +174,50 @@ class BCNotificationCentreTests: XCTestCase {
             XCTAssertNil(error)
             XCTAssertNotNil(recievedNotificationHighPriority)
             XCTAssertNotNil(recievedNotificationLowPriority)
-            XCTAssertEqual(notification, recievedNotificationHighPriority)
-            XCTAssertEqual(recievedNotificationHighPriority, recievedNotificationNormalPriority)
-            XCTAssertEqual(recievedNotificationHighPriority, recievedNotificationLowPriority)
+            XCTAssertEqual(notification.name, recievedNotificationHighPriority?.name)
+            XCTAssertEqual(recievedNotificationHighPriority?.name, recievedNotificationNormalPriority?.name)
+            XCTAssertEqual(recievedNotificationHighPriority?.name, recievedNotificationLowPriority?.name)
         }
+    }
+    
+    func testTypedNotifications() {
+        // Given
+        let notificationName = "BCNotificationName"
+        let notification = BCNotification(name: notificationName, value: 1)
+        
+        let asyncNotificationExpectation = expectationWithDescription("asyncNotificationExpectation")
+        
+        var recievedGoodTypedNotification: BCNotification<Int>?
+        let goodTypedNotificationBlock = { (notification: BCNotification<Int>) -> Void in
+            recievedGoodTypedNotification = notification
+            asyncNotificationExpectation.fulfill()
+        }
+        
+        var recievedBadTypedNotification: BCNotification<String>?
+        let badTypedNotificationBlock = { (notification: BCNotification<String>) -> Void in
+            recievedBadTypedNotification = notification
+            asyncNotificationExpectation.fulfill()
+        }
+        
+        // When
+        sut.addObserverForName(notificationName, priority: .Low, observerBlock: goodTypedNotificationBlock)
+        sut.addObserverForName(notificationName, priority: .High, observerBlock: badTypedNotificationBlock)
+        sut.postNotification(notification)
+        
+        // Then
+        waitForExpectationsWithTimeout(5) { error in
+            XCTAssertNil(error)
+            XCTAssertNotNil(recievedGoodTypedNotification)
+            XCTAssertNil(recievedBadTypedNotification)
+            XCTAssertEqual(notification.name, recievedGoodTypedNotification?.name)
+            XCTAssertEqual(notification.value, recievedGoodTypedNotification?.value)
+        }
+    }
+    
+    func testDefaultCentre() {
+        let sut = BCNotificationCentre.defaultCentre
+        XCTAssertEqual(ObjectIdentifier(BCNotificationCentre.defaultCentre), ObjectIdentifier(sut))
+        XCTAssertNotEqual(ObjectIdentifier(BCNotificationCentre()), ObjectIdentifier(sut))
     }
     
 }

@@ -8,18 +8,17 @@
 
 import Foundation
 
-public struct BCNotification: BCNamedNotification {
+public struct BCNotification<T>: BCNamedNotification, BCValuedNotification {
     
+    /// Name of the notification
     public let name: String
     
-    public init(name: String) {
+    /// Optional value of the notification
+    public let value: T?
+    
+    public init(name: String, value: T? = nil) {
         self.name = name
+        self.value = value
     }
     
-}
-
-extension BCNotification: Equatable { }
-
-public func ==(lhs: BCNotification, rhs: BCNotification) -> Bool {
-    return lhs.name == rhs.name
 }

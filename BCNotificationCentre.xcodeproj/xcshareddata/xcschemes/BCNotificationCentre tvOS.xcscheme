@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7AC201661CDF96C000622192"
+               BlueprintIdentifier = "7A10D1F41CE8DB9E00E733D7"
                BuildableName = "BCNotificationCentre.framework"
-               BlueprintName = "BCNotificationCentre"
+               BlueprintName = "BCNotificationCentre tvOS"
                ReferencedContainer = "container:BCNotificationCentre.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7AC201701CDF96C000622192"
+               BlueprintIdentifier = "7A10D1FD1CE8DB9E00E733D7"
                BuildableName = "BCNotificationCentreTests.xctest"
-               BlueprintName = "BCNotificationCentreTests"
+               BlueprintName = "BCNotificationCentreTests tvOS"
                ReferencedContainer = "container:BCNotificationCentre.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AC201661CDF96C000622192"
+            BlueprintIdentifier = "7A10D1F41CE8DB9E00E733D7"
             BuildableName = "BCNotificationCentre.framework"
-            BlueprintName = "BCNotificationCentre"
+            BlueprintName = "BCNotificationCentre tvOS"
             ReferencedContainer = "container:BCNotificationCentre.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AC201661CDF96C000622192"
+            BlueprintIdentifier = "7A10D1F41CE8DB9E00E733D7"
             BuildableName = "BCNotificationCentre.framework"
-            BlueprintName = "BCNotificationCentre"
+            BlueprintName = "BCNotificationCentre tvOS"
             ReferencedContainer = "container:BCNotificationCentre.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +83,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7AC201661CDF96C000622192"
+            BlueprintIdentifier = "7A10D1F41CE8DB9E00E733D7"
             BuildableName = "BCNotificationCentre.framework"
-            BlueprintName = "BCNotificationCentre"
+            BlueprintName = "BCNotificationCentre tvOS"
             ReferencedContainer = "container:BCNotificationCentre.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
